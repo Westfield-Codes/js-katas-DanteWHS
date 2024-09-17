@@ -11,7 +11,12 @@ alert("my favorite color is " + color);
 /* Prompt */
 
 /* Prompt with Conditional */
-
+// make a variable for color, prompt the user for their favorite
+color = prompt("what is your favorite color?");
+// if user enters "black" alert "Black is not really a color." 
+if (color == "black") alert("Black is not really a color.");
+// otherwise alert color " is a nice color!"
+else alert(color + " is a nice color!");
 
 /* AGE */
 
